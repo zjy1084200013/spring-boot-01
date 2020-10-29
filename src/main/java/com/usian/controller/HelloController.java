@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HelloController {
     @RequestMapping("hello")
     public String hello(){
+        // 真好
         System.out.println("我提交了一个数据");
         System.out.println("师姐好");
         return "hello world!";
