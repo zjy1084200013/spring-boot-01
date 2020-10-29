@@ -13,6 +13,7 @@ public class HelloController {
     public String hello(){
         // 真不少
         // 真好
+        System.out.println("修改了bug");
         System.out.println("我提交了一个数据");
         System.out.println("师姐好");
         return "hello world!";
